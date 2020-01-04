@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-sleek"
-  spec.version       = "0.1.8"
-  spec.authors       = ["Jan Czizikow"]
-  spec.email         = ["jan.czizikow@gmail.com"]
+  spec.version       = "0.0.1"
+  spec.authors       = ["Warsztat Technologiczny"]
+  spec.email         = ["warsztat.technologiczny@gmail.com"]
 
   spec.summary       = %q{Sleek is a modern Jekyll theme focused on speed performance & SEO best practices.}
   spec.homepage      = "https://janczizikow.github.io/sleek/"
@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.3"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1"
 
-  spec.add_development_dependency "bundler", "~> 1.12"
+  spec.add_development_dependency "bundler", "~> 2.1.3"
   spec.add_development_dependency "rake", "~> 10.0"
 end
